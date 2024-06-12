@@ -48,7 +48,7 @@ public class MergeSort {
             }
             k++;
         }
-        if(j==high)
+        if(j>high)
         {
             while(i<=mid)
             {
@@ -56,7 +56,7 @@ public class MergeSort {
                 i++;k++;
             }
         }
-        else if(i==mid);
+        else if(i>mid);
         {
             while(j<=high)
             {
@@ -64,7 +64,7 @@ public class MergeSort {
                 i++;j++;
             }
         }
-        for(k=low;k<high;k++)
+        for(k=low;k<=high;k++)
         {
             arr[k]=barr[k];
         }
